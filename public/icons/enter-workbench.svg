@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="86" viewBox="0 0 360 86" role="img" aria-labelledby="title">
+  <title id="title">进入工作台</title>
+  <defs>
+    <linearGradient id="rose" x2="0%" y2="100%">
+      <stop offset="0" stop-color="#ffe8f6"/>
+      <stop offset=".4" stop-color="#f9a9ce"/>
+      <stop offset=".66" stop-color="#f69bc8"/>
+      <stop offset="1" stop-color="#ffd5ed"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.2" y="1.2" width="357.6" height="83.6" rx="41.8" fill="url(#rose)" stroke="#ffe6f9" stroke-width="2.4"/>
+  <rect x="4" y="4" width="352" height="78" rx="39" fill="none" stroke="#fff8fd" stroke-opacity=".55"/>
+  <g transform="translate(49 23) scale(1.7)" fill="none" stroke="#32162c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 10h18v9.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19.5zM3 10l-1-4 17.7-4.4 1 4.1zM6 5l3.7 3.2M12 3.5l3.5 3.2"/>
+    <path d="m10 13 5 3-5 3z" fill="#32162c" stroke="none"/>
+  </g>
+  <text x="184" y="44" text-anchor="middle" dominant-baseline="central" font-family="KaiTi, STKaiti, Kaiti SC, Songti SC, Noto Serif CJK SC, serif" font-size="32" font-weight="700" letter-spacing="1" fill="#32162c">进入工作台</text>
+  <path d="m288 35 8 8-8 8" fill="none" stroke="#32162c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

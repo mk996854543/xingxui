@@ -1,0 +1,62 @@
+:root {
+  font-family: system-ui, "Microsoft YaHei", "PingFang SC", sans-serif;
+  color: #241b33;
+  background-color: #f7f4fb;
+  line-height: 1.6;
+  font-weight: 400;
+  --surface: #fff;
+  --text-muted: #5c526b;
+  --border: #e8dff0;
+  --accent: #62428e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: clamp(1rem, 5vw, 3rem);
+}
+
+.page-card {
+  width: min(100%, 32rem);
+  padding: clamp(1.5rem, 7vw, 3.5rem);
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  background: var(--surface);
+  text-align: center;
+  box-shadow: 0 1rem 3rem rgb(49 26 71 / 8%);
+}
+
+.page-card h1 {
+  margin: 0;
+  font-size: clamp(2rem, 7vw, 3rem);
+  line-height: 1.25;
+}
+
+.page-card p {
+  margin: 0.75rem 0 0;
+  color: var(--text-muted);
+}
+
+.page-card__link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+.page-card__link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
